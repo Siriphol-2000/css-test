@@ -4,3 +4,30 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
 }
+.background {
+    background-color: #a83d3d; 
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 100vh; 
+}
+
+.form-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 600px; 
+    margin: 5rem;
+}
+.input-field {
+    display: flex;
+    flex-direction: column; /* Stack label and input vertically */
+    flex: 1; /* Allow fields to grow and shrink equally */
+    margin-right: 1rem; /* Space between fields */
+}
+#name-field {
+    display: flex;
+    justify-content: space-between; /* Distribute space between items */
+    margin-bottom: 1rem; /* Space between form sections */
+}

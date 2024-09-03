@@ -26,8 +26,14 @@ body {
     flex: 1; /* Allow fields to grow and shrink equally */
     margin-right: 1rem; /* Space between fields */
 }
-#name-field {
+#name-field,#DoB-gender {
     display: flex;
     justify-content: space-between; /* Distribute space between items */
     margin-bottom: 1rem; /* Space between form sections */
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
 }

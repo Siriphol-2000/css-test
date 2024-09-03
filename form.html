@@ -33,23 +33,66 @@
           </section>
           <section id="DoB-gender">
             <div class="input-field">
-                <label for="DoB">Date of Birth</label>
-                <input type="date" name="DoB" id="DoB" />
+              <label for="DoB">Date of Birth</label>
+              <input type="date" name="DoB" id="DoB" />
             </div>
             <div class="input-field">
-                <label>Gender</label>
-                <div class="radio-group">
-                    <label for="gender-male">
-                        <input type="radio" name="gender" id="gender-male" value="male" /> 
-                        <span>Male</span>
-                    </label>
-                    <label for="gender-female">
-                        <input type="radio" name="gender" id="gender-female" value="female" /> 
-                        <span>Female</span>
-                    </label>
-                </div>
+              <label>Gender</label>
+              <div class="radio-group">
+                <label for="gender-male">
+                  <input
+                    type="radio"
+                    name="gender"
+                    id="gender-male"
+                    value="male"
+                  />
+                  <span>Male</span>
+                </label>
+                <label for="gender-female">
+                  <input
+                    type="radio"
+                    name="gender"
+                    id="gender-female"
+                    value="female"
+                  />
+                  <span>Female</span>
+                </label>
+              </div>
             </div>
-        </section>
+          </section>
+          <section id="contact-info">
+            <div class="input-field">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email"
+              />
+            </div>
+            <div class="input-field">
+              <label for="phone">Phone Number</label>
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                placeholder="Enter your phone number"
+              />
+            </div>
+          </section>
+          <section id="subject-submit">
+            <div class="input-field">
+              <label for="subject">Subject</label>
+              <select name="subject" id="subject">
+                <option value="general">General Inquiry</option>
+                <option value="support">Support</option>
+                <option value="feedback">Feedback</option>
+              </select>
+            </div>
+          </section>
+          <div class="input-field">
+            <button type="submit">Submit</button>
+          </div>
         </form>
       </div>
     </div>
